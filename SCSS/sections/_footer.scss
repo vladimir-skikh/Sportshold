@@ -1,0 +1,287 @@
+.footer {
+  margin: 0;
+  padding: 0;
+  background-color: #623232;
+  &-top {
+    padding: 50px 25px;
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+    }
+    &-item {
+      position: relative;
+      max-width: 110px;
+      text-align: center;
+      &__text {
+        display: block;
+        @include light;
+        font-size: 16px;
+        color: #fff;
+      }
+      &-1 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          width: 40px;
+          height: 40px;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          background-position: -315px -5px;
+          margin-bottom: 25px;
+        }
+      }
+      &-2 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          width: 40px;
+          height: 40px;
+          background-position: -128px -5px;
+          margin-bottom: 25px;
+        }
+      }
+      &-3 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          width: 40px;
+          height: 40px;
+          background-position: -178px -5px;
+          margin-bottom: 25px;
+        }
+      }
+      &-4 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          width: 40px;
+          height: 40px;
+          background-position: -265px -5px;
+          margin-bottom: 25px;
+        }
+      }
+      &-5 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          width: 40px;
+          height: 40px;
+          background-position: -78px -5px;
+          margin-bottom: 25px;
+        }
+      }
+      &-6 {
+        &::before {
+          position: relative;
+          left: 33px;
+          content: '';
+          display: block;
+          background: url('../../images/footer/spritesheet.png') no-repeat;
+          width: 40px;
+          height: 40px;
+          background-position: -5px -5px;
+          margin-bottom: 25px;
+        }
+      }
+    }
+  }
+  &-middle {
+    display: flex;
+    justify-content: space-between;
+    max-height: 408px;
+    padding: 100px 0;
+    border-top: 1px solid rgba(255,255,255, 0.15);
+    border-bottom: 1px solid rgba(255,255,255, 0.15);
+    &-contact {
+      display: flex;
+      margin-bottom: 30px;
+      &s {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        max-height: 205px;
+      }
+      &__image {
+        margin-right: 20px;
+      }
+      &-title {
+        display: block;
+        @include bold;
+        line-height: 26px;
+        color: $primary-color;
+        text-transform: uppercase;
+      }
+      &-description {
+        display: block;
+        line-height: 26px;
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  &-nav {
+    flex-grow: 1;
+    margin-left: 90px;
+    padding: 0;
+    &-list__first {
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    &-item__first {
+      margin: 0;
+      margin-right: 15px;
+      @include bold;
+      font-size: 16px;
+      line-height: 36px;
+      color: $primary-color;
+      text-transform: uppercase;
+    }
+    &-list__second {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    &-item__second {
+      @include regular;
+      color: #fff;
+      text-transform: none;
+    }
+    &-link {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  &-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0 50px;
+    &-copyrights {
+      @include light;
+      color: #fff;
+    }
+    &-link {
+      &s {
+        display: flex;
+        align-items: center;
+      }
+      &__text {
+        height: 0;
+        position: relative;
+      }
+    }
+  }
+}
+.tw, .fb, .ps, .yt {
+  &::before {
+    content: '';
+    display: inline-block;
+    margin-right: 30px;
+    background: url('../../images/footer/spritesheet.png') no-repeat;
+  }
+}
+.tw {
+  &::before {
+    top: -50%;
+    width: 26px;
+    height: 21px;
+    background-position: -365px -5px;
+  }
+}
+.fb {
+  &::before {
+    width: 13px;
+    height: 27px;
+    background-position: -55px -5px;
+  }
+}
+.ps {
+  &::before {
+    width: 27px;
+    height: 27px;
+    background-position: -228px -5px;
+  }
+}
+.yt {
+  &::before {
+    width: 27px;
+    height: 18px;
+    margin-right: 0;
+    background-position: -401px -5px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .footer {
+    &-top {
+      padding: 30px 25px;
+      &-item__text {
+        font-style: 12px;
+      }
+    }
+    &-middle {
+      padding: 30px 0;
+    }
+    &-nav {
+      margin-left: 30px;
+      &-item__first {
+        font-size: 14px;
+      }
+      &-item__second {
+        font-size: 14px;
+      }
+    }
+    &-bottom {
+      padding: 30px 0;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .footer {
+    &-top {
+      display: none;
+    }
+    &-middle {
+      justify-content: center;
+      padding: 30px 0 15px;
+      border: none;
+      &-contact {
+        margin-bottom: 20px;
+      }
+    }
+    &-nav {
+      display: none;
+    }
+    &-bottom {
+      flex-direction: column;
+      padding: 15px 0 20px;
+      &-logo {
+        display: none;
+      }
+      &-copyrights {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
