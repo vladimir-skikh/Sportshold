@@ -10,6 +10,7 @@
     padding: 0;
     margin: 0;
     margin-bottom: 50px;
+    text-transform: uppercase;
   }
   &__block {
     display: flex;
@@ -106,6 +107,16 @@
       background-position: center;
       width: 90%;
       flex-basis: 350px;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .news {
+    &__title {
+      margin-bottom: 25px;
+    }
+    &-title {
+      font-size: 20px;
     }
   }
 }

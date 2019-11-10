@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Sportshold</title>
 </head>
 <body>
@@ -40,7 +41,7 @@
       </div>
       <div class="header-bottom header__bottom">
         <div class="wrapper wrapper__header-bottom">
-          <img src="images/logo.png" alt="Sportshold logo" class="header__logo">
+          <a href="#" class="header__logo"><img src="images/logo.png" alt="Sportshold logo"></a>
           <nav class="header__nav" role="navigation">
             <a class="nav-mobile">
               <span class="sandwich"></span>
@@ -98,7 +99,7 @@
     <section class="board">
       <div class="wrapper wrapper__board">
         <div class="collections">
-          <div class="collection_1 collection">
+          <div class="collection_1 collection" data-aos="fade-right" data-aos-easing="linear">
             <img src="images/collections/collection_1_image.png" alt="Nike Kyrie 3 collection" class="collection_1-image">
             <div class="collection-description collection-description_1">
               <span class="sentense">Discover the new</span>
@@ -107,7 +108,7 @@
             </div>
           </div>
           <div class="collections-column">
-            <div class="collection_2 collection">
+            <div class="collection_2 collection" data-aos="fade-left" data-aos-easing="linear" >
               <img src="images/collections/collection_2_image.png" alt="Adidas Boost collection" class="collection_2-image">
               <div class="collection-description collection-description_2">
                 <span class="sentense">Check out the</span>
@@ -116,14 +117,14 @@
               </div>
             </div>
             <div class="collections-row">
-              <div class="collection_3 collection">
+              <div class="collection_3 collection" data-aos="fade-up" data-aos-easing="linear" data-aos-anchor-placement="bottom-bottom">
                 <img src="images/collections/collection_3_image.png" alt="Athletics sneakers" class="collection_3-image">
                 <div class="collection-description collection-description_3">
                   <span class="sentense">Best for</span>
                   <h2 class="collection-title collection-title_3">ATHLETES</h2>
                 </div>
               </div>
-              <div class="collection_4 collection">
+              <div class="collection_4 collection" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-anchor-placement="bottom-bottom">
                 <img src="images/collections/collection_4_image.png" alt="Premium sneakers" class="collection_4-image">
                 <div class="collection-description collection-description_4">
                   <span class="sentense">Feel</span>
@@ -289,21 +290,21 @@
       <div class="wrapper wrapper__news">
         <h2 class="news-title news__title">LATEST NEWS</h2>
         <div class="news-blocks">
-          <div class="news-block news-block_1 news__block" id="news-block_1">
+          <div class="news-block news-block_1 news__block" id="news-block_1" data-aos="zoom-in" data-aos-delay="0" data-aos-anchor-placement="center-bottom">
             <span class="news-date news__date">DEC 27, 2017</span>
             <span class="news-description news__description">Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
             <a href="#" class="news-comments news__comments">
               <span class="news-comments-quantity">24 Comments</span>
             </a>
           </div>
-          <div class="news-block news-block_2 news__block" id="news-block_2">
+          <div class="news-block news-block_2 news__block" id="news-block_2" data-aos="zoom-in" data-aos-delay="150" data-aos-anchor-placement="center-bottom">
             <span class="news-date news__date">DEC 27, 2017</span>
             <span class="news-description news__description">Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
             <a href="#" class="news-comments news__comments">
               <span class="news-comments-quantity">24 Comments</span>
             </a>
           </div>
-          <div class="news-block news-block_3 news__block" id="news-block_3">
+          <div class="news-block news-block_3 news__block" id="news-block_3" data-aos="zoom-in" data-aos-delay="300" data-aos-anchor-placement="center-bottom">
             <span class="news-date news__date">DEC 27, 2017</span>
             <span class="news-description news__description">Lorem ipsum dolor sit amet consectetur adipiscing elit</span>
             <a href="#" class="news-comments news__comments">
@@ -441,6 +442,48 @@
       </div>
     </div>
   </footer>
+
+  <!--Модальные окна-->
+  <div class="modal-window modal-window__register">
+    <div class="sign-up">
+      <h2 class="modal-window__title">Create new account</h2>
+      <button class="modal-window__close">&times;</button>
+      <form action="#" class="modal-window__form">
+        <label for="email" class="modal-window__label">Your Email</label>
+        <input type="email" class="modal-window__input" id="email">
+        <label for="password" class="modal-window__label">Your password</label>
+        <input type="password" class="modal-window__input" id="password">
+        <label for="repeat-password" class="modal-window__label">Repeat password</label>
+        <input type="password" class="modal-window__input" id="repeat-password">
+        <button class="button button__modal">Register</button>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="modal-window modal-window__login">
+    <div class="login">
+      <h2 class="modal-window__title">Login</h2>
+      <button class="modal-window__close">&times;</button>
+      <form action="#" class="modal-window__form">
+        <label for="email" class="modal-window__label">Email</label>
+        <input type="email" class="modal-window__input" id="email">
+        <label for="password" class="modal-window__label">Password</label>
+        <input type="password" class="modal-window__input" id="password">
+        <button class="button button__modal">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="JS/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      anchorPlacement: 'top-center',
+      duration: 400,
+      once: true,
+    })
+  </script>
 </body>
 </html>

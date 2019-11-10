@@ -90,3 +90,18 @@ let review_authors_function = function (author_array, texts_array) {
   }
 }
 review_authors_function(authors, text_blocks);
+
+
+$('.button__register').on('click', function() {
+  $('.modal-window__register').fadeIn();
+});
+$('.modal-window__close').on('click', function() {
+  $('.modal-window__register').fadeOut();
+}); 
+$('.button__login').on('click', function() {
+  $('.modal-window__login').fadeIn();
+});
+$('.modal-window__close').on('click', function() {
+  $('.modal-window__login').fadeOut();
+}); 
+

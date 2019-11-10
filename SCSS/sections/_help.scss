@@ -55,3 +55,10 @@
     }
   }
 }
+@media screen and (max-width: 350px) {
+  .help {
+    &-title {
+      font-size: 25px;
+    }
+  }
+}
