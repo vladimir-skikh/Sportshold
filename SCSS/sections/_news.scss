@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .news {
   padding: 100px 0;
   &-title {
@@ -120,6 +121,129 @@
       font-size: 20px;
     }
   }
+=======
+.news {
+  padding: 100px 0;
+  &-title {
+    @include bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #623232;
+  } 
+  &__title {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+  }
+  &__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    height: 350px;
+    flex-basis: 30%;
+  }
+  &-block {
+    transition: all 200ms ease;
+    &:hover {
+      transition: all 200ms ease;   
+      cursor: pointer;
+      box-shadow: 0 0 10px -2px;
+    }
+    &s {
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+    &_1 {
+      background: #472424 url('../../images/news/news_1.jpg') no-repeat;
+      background-size: cover;
+    }
+    &_2 {
+      background: #472424 url('../../images/news/news_2.jpg') no-repeat;
+      background-size: cover;
+    }
+    &_3 {
+      background: #472424 url('../../images/news/news_3.jpg') no-repeat;
+      background-size: cover;
+    }
+  }
+  &-date, &-description, &-comments {
+    display: block;
+    @include bold;
+    color: #ffffff;
+    line-height: 26px;
+    font-size: 16px;
+    margin-left: 30px;
+  }
+  &-date {
+    text-transform: uppercase;
+    font-weight: 200;
+  }
+  &-description {
+    @include light;
+  }
+  &-comments {
+    @include light;
+    font-size: 13px;
+    color: $primary-color;
+    text-decoration: none;
+    margin-bottom: 20px;
+    &-quantity {
+      position: relative;
+      margin-left: 10px;
+      &::before {
+        display: inline-block;
+        position: relative;
+        top: 5px;
+        left: -10px;
+        content: '';
+        width: 20px;
+        height: 20px;
+        line-height: 26px;
+        background: url('../../images/news/commets-svg.svg') no-repeat center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .news {
+    &-blocks {
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    &__block {
+      margin-bottom: 30px;
+      flex-basis: 45%;
+    }
+  }
+}
+@media screen and (max-width: 746px) {
+  .news {
+    padding: 0 0;
+    &-blocks {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__block {
+      background-position: center;
+      width: 90%;
+      flex-basis: 350px;
+    }
+  }
+}
+@media screen and (max-width: 350px) {
+  .news {
+    &__title {
+      margin-bottom: 25px;
+    }
+    &-title {
+      font-size: 20px;
+    }
+  }
+>>>>>>> 2d76055e282ab9e5d00173840aea1905f08f34d5
 =======
 .news {
   padding: 100px 0;
