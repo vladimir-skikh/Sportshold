@@ -1,0 +1,65 @@
+.sprite {
+    background-image: url('spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-delivery {
+    width: 40px;
+    height: 28px;
+    background-position: -5px -5px;
+}
+
+.sprite-facebook {
+    width: 13px;
+    height: 27px;
+    background-position: -55px -5px;
+}
+
+.sprite-gift {
+    width: 40px;
+    height: 40px;
+    background-position: -78px -5px;
+}
+
+.sprite-money_back {
+    width: 40px;
+    height: 40px;
+    background-position: -128px -5px;
+}
+
+.sprite-phone {
+    width: 40px;
+    height: 40px;
+    background-position: -178px -5px;
+}
+
+.sprite-pinterest {
+    width: 27px;
+    height: 27px;
+    background-position: -228px -5px;
+}
+
+.sprite-price {
+    width: 40px;
+    height: 40px;
+    background-position: -265px -5px;
+}
+
+.sprite-shiping {
+    width: 40px;
+    height: 40px;
+    background-position: -315px -5px;
+}
+
+.sprite-twitter {
+    width: 26px;
+    height: 21px;
+    background-position: -365px -5px;
+}
+
+.sprite-youtube {
+    width: 27px;
+    height: 18px;
+    background-position: -401px -5px;
+}

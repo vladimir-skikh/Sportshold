@@ -1,0 +1,78 @@
+<<<<<<< HEAD
+@font-face {
+  font-family: 'Elsa';
+  src: 
+      url('../fonts/Elsa.woff2') format('woff2'),
+      url('../fonts/Elsa.woff') format('woff'),
+      url('../fonts/Elsa.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}   
+@font-face {
+  font-family: 'Elsa-Light';
+  src: 
+      url('../fonts/Elsa-Light.woff2') format('woff2'),
+      url('../fonts/Elsa-Light.woff') format('woff'),
+      url('../fonts/Elsa-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elsa-Bold';
+  src:
+      url('../fonts/Elsa-Bold.woff2') format('woff2'),
+      url('../fonts/Elsa-Bold.woff') format('woff'),
+      url('../fonts/Elsa-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@mixin regular {
+  font-family: 'Elsa', sans-serif;
+  font-weight: 400;
+}
+@mixin light {
+  font-family: 'Elsa-Light', sans-serif;
+  font-weight: 400;
+}
+@mixin bold {
+  font-family: 'Elsa-Bold', sans-serif;
+=======
+@font-face {
+  font-family: 'Elsa';
+  src: 
+      url('../fonts/Elsa.woff2') format('woff2'),
+      url('../fonts/Elsa.woff') format('woff'),
+      url('../fonts/Elsa.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}   
+@font-face {
+  font-family: 'Elsa-Light';
+  src: 
+      url('../fonts/Elsa-Light.woff2') format('woff2'),
+      url('../fonts/Elsa-Light.woff') format('woff'),
+      url('../fonts/Elsa-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elsa-Bold';
+  src:
+      url('../fonts/Elsa-Bold.woff2') format('woff2'),
+      url('../fonts/Elsa-Bold.woff') format('woff'),
+      url('../fonts/Elsa-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@mixin regular {
+  font-family: 'Elsa', sans-serif;
+  font-weight: 400;
+}
+@mixin light {
+  font-family: 'Elsa-Light', sans-serif;
+  font-weight: 400;
+}
+@mixin bold {
+  font-family: 'Elsa-Bold', sans-serif;
+>>>>>>> 2d76055e282ab9e5d00173840aea1905f08f34d5
+}
