@@ -854,35 +854,35 @@ body {
 }
 
 .board-item-preview_1 {
-  background: #fff url("../../images/goods-images/Converse_Breakpoint_Suede_Blue.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Converse_Breakpoint_Suede_Blue.png") no-repeat center;
 }
 
 .board-item-preview_2 {
-  background: #fff url("../../images/goods-images/Converse_CT_All_Star_II.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Converse_CT_All_Star_II.png") no-repeat center;
 }
 
 .board-item-preview_3 {
-  background: #fff url("../../images/goods-images/Adidas_Pure_Boost_Chill.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Adidas_Pure_Boost_Chill.png") no-repeat center;
 }
 
 .board-item-preview_4 {
-  background: #fff url("../../images/goods-images/Puma_Duplex_W_Casual.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Puma_Duplex_W_Casual.png") no-repeat center;
 }
 
 .board-item-preview_5 {
-  background: #fff url("../../images/goods-images/Adidas_Alphabounce_1M.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Adidas_Alphabounce_1M.png") no-repeat center;
 }
 
 .board-item-preview_6 {
-  background: #fff url("../../images/goods-images/Asics_GEL-Epirus.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Asics_GEL-Epirus.png") no-repeat center;
 }
 
 .board-item-preview_7 {
-  background: #fff url("../../images/goods-images/Adidas_Originals_Courtvantage_Mesh.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Adidas_Originals_Courtvantage_Mesh.png") no-repeat center;
 }
 
 .board-item-preview_8 {
-  background: #fff url("../../images/goods-images/Adidas_Originals_Climacool_1.png") no-repeat center;
+  background: #fff url("https://vladimir-skikh.github.io/Sportshold/images/goods-images/Adidas_Originals_Climacool_1.png") no-repeat center;
 }
 
 .board-item-price {
@@ -1300,7 +1300,7 @@ body {
 .review {
   padding: 100px 0;
   max-height: 570px;
-  background: #472424 url("../../images/reviews-bg.png") no-repeat;
+  background: #472424 url("https://vladimir-skikh.github.io/Sportshold/images/reviews-bg.png") no-repeat;
   background-size: cover;
 }
 
@@ -1514,17 +1514,17 @@ body {
 }
 
 .news-block_1 {
-  background: #472424 url("../../images/news/news_1.jpg") no-repeat;
+  background: #472424 url("https://vladimir-skikh.github.io/Sportshold/images/news/news_1.jpg") no-repeat;
   background-size: cover;
 }
 
 .news-block_2 {
-  background: #472424 url("../../images/news/news_2.jpg") no-repeat;
+  background: #472424 url("https://vladimir-skikh.github.io/Sportshold/images/news/news_2.jpg") no-repeat;
   background-size: cover;
 }
 
 .news-block_3 {
-  background: #472424 url("../../images/news/news_3.jpg") no-repeat;
+  background: #472424 url("https://vladimir-skikh.github.io/Sportshold/images/news/news_3.jpg") no-repeat;
   background-size: cover;
 }
 
@@ -1570,7 +1570,7 @@ body {
   width: 20px;
   height: 20px;
   line-height: 26px;
-  background: url("../../images/news/commets-svg.svg") no-repeat center;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/news/commets-svg.svg") no-repeat center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -1728,7 +1728,7 @@ body {
   display: block;
   width: 40px;
   height: 40px;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   background-position: -315px -5px;
   margin-bottom: 25px;
 }
@@ -1738,7 +1738,7 @@ body {
   left: 33px;
   content: '';
   display: block;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   width: 40px;
   height: 40px;
   background-position: -128px -5px;
@@ -1750,7 +1750,7 @@ body {
   left: 33px;
   content: '';
   display: block;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   width: 40px;
   height: 40px;
   background-position: -178px -5px;
@@ -1762,7 +1762,7 @@ body {
   left: 33px;
   content: '';
   display: block;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   width: 40px;
   height: 40px;
   background-position: -265px -5px;
@@ -1774,7 +1774,7 @@ body {
   left: 33px;
   content: '';
   display: block;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   width: 40px;
   height: 40px;
   background-position: -78px -5px;
@@ -1786,7 +1786,7 @@ body {
   left: 33px;
   content: '';
   display: block;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
   width: 40px;
   height: 40px;
   background-position: -5px -5px;
@@ -1935,7 +1935,7 @@ body {
   content: '';
   display: inline-block;
   margin-right: 30px;
-  background: url("../../images/footer/spritesheet.png") no-repeat;
+  background: url("https://vladimir-skikh.github.io/Sportshold/images/footer/spritesheet.png") no-repeat;
 }
 
 .tw::before {
